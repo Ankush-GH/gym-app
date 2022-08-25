@@ -1,5 +1,4 @@
 import { Switch, Route } from "react-router-dom";
-
 import "./App.scss";
 import Topbar from "./components/topbar/Topbar";
 import Classes from "./components/classes/Classes";

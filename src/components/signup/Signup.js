@@ -1,8 +1,10 @@
+import axios from "axios";
 import React, { useState, useEffect } from "react";
 
 import "./Signup.scss";
 
 const Signup = () => {
+
   const initialValues = {
     fname: "",
     lname: "",
@@ -31,6 +33,16 @@ const Signup = () => {
     e.preventDefault();
 
     setFormErrors(validator(formValues));
+
+    // sending the data to firebase 
+    axios.post("https://gym-app-f07cb-default-rtdb.firebaseio.com/user.json", formValues)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
     setIsSubmit(true);
   };
 

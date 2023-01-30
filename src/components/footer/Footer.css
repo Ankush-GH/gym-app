@@ -1,0 +1,268 @@
+.app__footer {
+  height: 70vh;
+  color: var(--color-white);
+  background: var(--color-black);
+  text-align: center;
+}
+
+.footer-mainheader {
+  margin-left: 8rem;
+  width: 80vw;
+  border-bottom: 1px solid var(--color-white);
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 5rem 0 0;
+}
+
+.address {
+  margin-right: 12rem;
+}
+
+.timings {
+  line-height: 0px;
+}
+
+.social-icons {
+  margin: 0 0.5rem;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app__footer {
+    height: 90vh;
+  }
+  .footer-mainheader {
+    margin-left: 2rem;
+    font-size: xx-large;
+  }
+  .row {
+    margin-top: -4rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: medium;
+  }
+  .address-header {
+    font-size: medium;
+  }
+  .timings-p {
+    font-size: x-small;
+  }
+  .address-p {
+    font-size: x-small;
+  }
+  .address {
+    padding: 0;
+    margin: -3rem 0 0 0;
+  }
+  .social {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app__footer {
+    height: 85vh;
+  }
+  .footer-mainheader {
+    margin-left: 2rem;
+    font-size: xx-large;
+  }
+  .row {
+    margin-top: -4rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: medium;
+  }
+  .address-header {
+    font-size: medium;
+  }
+  .timings-p {
+    font-size: x-small;
+  }
+  .address-p {
+    font-size: x-small;
+  }
+  .address {
+    padding: 0;
+    margin: -3rem 0 0 0;
+  }
+  .social {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app__footer {
+    height: 80vh;
+  }
+  .footer-mainheader {
+    margin-left: 2.5rem;
+    font-size: xx-large;
+  }
+  .row {
+    margin-top: -4rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: medium;
+  }
+  .address-header {
+    font-size: medium;
+  }
+  .timings-p {
+    font-size: x-small;
+  }
+  .address-p {
+    font-size: x-small;
+  }
+  .address {
+    padding: 0;
+    margin: -3rem 0 0 0;
+  }
+  .social {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app__footer {
+    height: 55vh;
+  }
+  .footer-mainheader {
+    margin-left: 4rem;
+    font-size: xx-large;
+  }
+  .row {
+    margin-top: -4rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: large;
+  }
+  .address-header {
+    font-size: large;
+  }
+  .timings-p {
+    font-size: small;
+  }
+  .address-p {
+    font-size: small;
+  }
+  .address {
+    padding: 0;
+    margin: -3rem 0 0 0;
+  }
+  .social {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app__footer {
+    height: 60vh;
+  }
+  .footer-mainheader {
+    margin-left: 4rem;
+    font-size: xx-large;
+  }
+  .row {
+    margin-top: -4rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: large;
+  }
+  .address-header {
+    font-size: large;
+  }
+  .timings-p {
+    font-size: small;
+  }
+  .address-p {
+    font-size: small;
+  }
+  .address {
+    padding: 0;
+    margin: -3rem 0 0 0;
+  }
+  .social {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app__footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    height: 43vh;
+  }
+  .footer-mainheader {
+    font-size: 3rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .timings-header {
+    font-size: large;
+  }
+  .address-header {
+    font-size: large;
+  }
+  .timings-p {
+    font-size: small;
+  }
+  .address-p {
+    font-size: small;
+  }
+  .social {
+    margin: 1.5rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app__footer {
+    height: 45vh;
+  }
+  .footer-mainheader {
+    font-size: 3rem;
+  }
+  .timins-header {
+    font-size: larger;
+  }
+  .address-header {
+    font-size: larger;
+  }
+  .address-p {
+    font-size: large;
+  }
+  .timings-p {
+    font-size: large;
+  }
+}

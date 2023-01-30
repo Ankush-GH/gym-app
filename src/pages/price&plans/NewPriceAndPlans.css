@@ -1,0 +1,208 @@
+.app_priceplans {
+  height: 80vh;
+  margin-top: -1.3rem;
+  background: black;
+  padding: 8rem 0 2rem 6rem;
+}
+
+.priceplans-mainheader {
+  margin-left: 12rem;
+  font-size: 4rem;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app_priceplans {
+    height: 82vh;
+    margin: 0;
+    padding: 3rem 0 0 0;
+  }
+  .priceplans-mainheader {
+    font-size: x-large;
+    margin: 5rem 0 0 3rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .basic {
+    margin-left: 4rem;
+  }
+  .unlimited {
+    margin-left: 4rem;
+  }
+
+  .base-head {
+    font-size: larger;
+  }
+  .unlimited-head {
+    font-size: larger;
+  }
+  .base-p {
+    font-size: small;
+  }
+  .unlimited-p {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app_priceplans {
+    height: 83vh;
+    margin: 0;
+    padding: 3rem 0 0 0;
+  }
+  .priceplans-mainheader {
+    font-size: x-large;
+    margin: 5rem 0 0 3rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .basic {
+    margin-left: 4rem;
+  }
+  .unlimited {
+    margin-left: 4rem;
+  }
+
+  .base-head {
+    font-size: larger;
+  }
+  .unlimited-head {
+    font-size: larger;
+  }
+  .base-p {
+    font-size: small;
+  }
+  .unlimited-p {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app_priceplans {
+    height: 50vh;
+    margin: 0;
+    padding: 3rem 0 0 0;
+  }
+  .priceplans-mainheader {
+    font-size: x-large;
+    margin: 5rem 0 0 3rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .basic {
+    margin-left: 4rem;
+  }
+  .unlimited {
+    margin-left: 4rem;
+  }
+
+  .base-head {
+    font-size: larger;
+  }
+  .unlimited-head {
+    font-size: larger;
+  }
+  .base-p {
+    font-size: small;
+  }
+  .unlimited-p {
+    font-size: small;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app_priceplans {
+    height: 55vh;
+    margin: 0;
+    padding: 4rem 0 0 4rem;
+  }
+  .priceplans-mainheader {
+    font-size: xx-large;
+    margin: 5rem 0 0 3rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .basic {
+    margin-left: 4rem;
+  }
+  .unlimited {
+    margin-left: 4rem;
+  }
+
+  .base-head {
+    font-size: x-large;
+  }
+  .unlimited-head {
+    font-size: x-large;
+  }
+  .base-p {
+    font-size: large;
+  }
+  .unlimited-p {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app_priceplans {
+    height: 60vh;
+    margin: 0;
+    padding: 4rem 0 0 4rem;
+  }
+  .priceplans-mainheader {
+    font-size: xx-large;
+    margin: 5rem 0 0 3rem;
+  }
+  .plans {
+    flex-direction: column;
+  }
+  .basic {
+    margin-left: 4rem;
+  }
+  .unlimited {
+    margin-left: 4rem;
+  }
+
+  .base-head {
+    font-size: x-large;
+  }
+  .unlimited-head {
+    font-size: x-large;
+  }
+  .base-p {
+    font-size: large;
+  }
+  .unlimited-p {
+    font-size: large;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app_priceplans {
+    height: 70vh;
+  }
+  .priceplans-mainheader {
+    margin-left: 4rem;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app_priceplans {
+    height: 60vh;
+  }
+  .priceplans-mainheader {
+    margin-left: 8rem;
+  }
+}

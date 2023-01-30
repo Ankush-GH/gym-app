@@ -1,7 +1,14 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
-  overflow-x: hidden;
-} 
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Khand&display=swap");
+
+:root {
+  --font-head: "Anton", sans-serif;
+  --font-base: "Khand", sans-serif;
+  --color-black: #000;
+  --color-white: rgb(237, 237, 237);
+  --color-red: #fc4445;
+  --color-hover: #ff0000;
+}
+
+a {
+  text-decoration: none;
+}

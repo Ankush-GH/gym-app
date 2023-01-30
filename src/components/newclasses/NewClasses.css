@@ -1,0 +1,165 @@
+.app__classes {
+  min-height: 90vh;
+  background-color: var(--color-black);
+  padding-top: 5rem;
+}
+
+.classes-mainheader {
+  margin-bottom: -4.5rem;
+  margin-left: 43%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.classes-img {
+  width: 28rem;
+  height: 28rem;
+}
+
+.class-container {
+  margin: 3rem 6rem;
+  flex-direction: column;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .classes-mainheader {
+    margin: -3rem 0 -1rem 8rem;
+    font-size: larger;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 1rem 2rem;
+  }
+  .class-links {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .classes-mainheader {
+    margin: -3rem 0 -1rem 40%;
+    font-size: larger;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 1rem 2.3rem;
+  }
+  .class-links {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .classes-mainheader {
+    margin: -3rem 0 0rem 43%;
+    font-size: larger;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 1rem 2.3rem;
+  }
+  .class-links {
+    font-size: small;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .classes-mainheader {
+    margin: -2rem 0 0rem 43%;
+    font-size: xx-large;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 2rem 4rem;
+  }
+  .class-links {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .classes-mainheader {
+    margin: -1rem 0 0 43%;
+    font-size: xx-large;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 2rem 4.5rem;
+  }
+  .class-links {
+    font-size: large;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .classes-mainheader {
+    margin: -1rem 0 0 43%;
+    font-size: xx-large;
+  }
+  .classes-img {
+    width: 80vw;
+    height: 50vh;
+  }
+  .classes {
+    margin: 0;
+  }
+  .class-container {
+    margin: 2rem 6.5rem;
+  }
+  .class-links {
+    font-size: larger;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .classes-mainheader {
+    margin: 0 0 0 45%;
+  }
+  .class-container {
+    margin: 2rem 6rem;
+  }
+  .classes {
+    margin: 0;
+  }
+}

@@ -1,0 +1,194 @@
+.app_trainers {
+  padding: 6rem 5rem 2rem 10rem;
+  background: var(--color-black);
+}
+
+.trainers-mainheader {
+  font-size: 4rem;
+}
+
+.trainer-img {
+  margin: 0 1.1rem;
+  width: 40vw;
+  height: 70vh;
+}
+
+.margin-t_b {
+  margin: 3rem 0;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app_trainers {
+    padding: 2rem 0;
+  }
+  .trainers-mainheader {
+    margin-left: 3rem;
+    font-size: xx-large;
+  }
+  .trainer1 {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .trainer2 {
+    padding: 1rem;
+    flex-direction: column-reverse;
+  }
+  .trainer3 {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .trainer-img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .trainer-header {
+    font-size: x-large;
+  }
+  .trainer-p {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app_trainers {
+    padding: 2rem 0;
+  }
+  .trainers-mainheader {
+    margin-left: 3rem;
+    font-size: xx-large;
+  }
+  .trainer1 {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .trainer2 {
+    padding: 1rem;
+    flex-direction: column-reverse;
+  }
+  .trainer3 {
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .trainer-img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .trainer-header {
+    font-size: x-large;
+  }
+  .trainer-p {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app_trainers {
+    padding: 2rem 0;
+  }
+  .trainers-mainheader {
+    margin-left: 5.5rem;
+    font-size: xx-large;
+  }
+  .trainer1 {
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer2 {
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+  .trainer3 {
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer-img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .trainer-header {
+    font-size: x-large;
+  }
+  .trainer-p {
+    font-size: small;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app_trainers {
+    padding: 2rem 0 3rem 0;
+  }
+  .trainers-mainheader {
+    margin-left: 32%;
+    font-size: xx-large;
+  }
+  .trainer1 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer2 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+  .trainer3 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer-img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .trainer-header {
+    font-size: x-large;
+  }
+  .trainer-p {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app_trainers {
+    padding: 2rem 0 3rem 0;
+  }
+  .trainers-mainheader {
+    margin-left: 32%;
+    font-size: xx-large;
+  }
+  .trainer1 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer2 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column-reverse;
+  }
+  .trainer3 {
+    margin: 0;
+    padding: 2rem;
+    flex-direction: column;
+  }
+  .trainer-img {
+    width: 80vw;
+    height: 40vh;
+  }
+  .trainer-header {
+    font-size: x-large;
+  }
+  .trainer-p {
+    font-size: large;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}
